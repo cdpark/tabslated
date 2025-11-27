@@ -1,0 +1,18 @@
+# Core web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.5
+
+# Audio processing
+librosa==0.10.2.post1
+soundfile==0.12.1
+numpy==1.26.4
+
+# Chord / vamp plugin tools (your external Sonic Annotator binary is separate)
+# (No pip package needed for Sonic Annotator itself)
+
+# Whisper + dependencies
+faster-whisper==1.0.2
+ctranslate2==4.6.1
+
+# Keep pkg_resources available (avoid breakage after 2025-11-30)
+setuptools<81
